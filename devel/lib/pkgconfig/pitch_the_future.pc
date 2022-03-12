@@ -1,0 +1,8 @@
+prefix=/home/rahul/ptf_ws/devel
+
+Name: pitch_the_future
+Description: Description of pitch_the_future
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
