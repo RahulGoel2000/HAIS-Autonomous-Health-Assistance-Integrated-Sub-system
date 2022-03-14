@@ -101,7 +101,7 @@ def convert_to_msg():
 
 host = '172.17.52.15'
 port = 5555
-rospy.init_node('mobile_read', anonymous=False)
+rospy.init_node('data_extract', anonymous=False)
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)

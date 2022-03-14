@@ -53,7 +53,7 @@ knn_classifier.fit(X_train, y_train)
 # print(ans)
 
 pub = rospy.Publisher('ml_model_op', Int16, queue_size=10)
-rospy.init_node('ml_model', anonymous=True)
+rospy.init_node('averera_ptf', anonymous=True)
 rate = rospy.Rate(10)
 
 while 1:

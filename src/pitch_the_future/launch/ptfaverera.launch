@@ -1,0 +1,31 @@
+
+<launch>
+
+  <!-- <rosparam command="load" file="$(find Brake_by_wire_system)/params/testing.yaml"/> -->
+
+  <node pkg="pitch_the_future" type="averera_ptf" name="averera_ptf" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+
+  <node pkg="pitch_the_future" type="data_extract" name="data_extract" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+
+  <node pkg="pitch_the_future" type="generate_qr" name="generate_qr" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+
+  <node pkg="pitch_the_future" type="state_check" name="state_check" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+
+  <node pkg="pitch_the_future" type="nearest_hospita1" name="nearest_hospita1" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+
+  <node pkg="pitch_the_future" type="email_notification" name="email_notification" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+
+</launch>
+
+
+
+
+
+
+
