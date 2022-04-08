@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Importing required libraries
 # from tokenize import Stringsss
